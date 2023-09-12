@@ -21,6 +21,8 @@ git branch -d [branch name] Удаляет ветку
 git checkout [branch name]
 git checkout -b [branch name]
 
+git config --global --add --bool push.autoSetupRemote true
+    Теперь пушить можно без указания origin + branch name
 git merge [branch name] Мержит ветку в текущую
 git push origin [branch name]
 git pull
