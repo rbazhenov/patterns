@@ -2,4 +2,42 @@
 
 1. Создаём на сайте github.com проект и связываем с ним наш.
     git remote add origin https://github.com/rbazhenov/patterns.git
-2.
+2. Ошибка. in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+    git config --global core.autocrlf false
+
+git init
+git clone [url]
+git add *
+    добавляем все файлы в учёт. Если потом изменили до коммита, то их заново надо фиксировать.
+
+git commit -m "init project with singleton pattern"
+git commit -a todo что она делает? у меня всё сломалось
+git diff (чтобы выйти, нажми q)
+git diff --staged
+git diff [first branch] [second branch]
+
+git reset [file]
+git reset [commit]
+git reset –hard [commit]
+
+git status
+git rm [file]  Удаляет файл из рабочей области
+git log
+git log –follow[file]
+git show
+git tag [commitID]
+
+git branch Показывает все ветки
+git branch [branch name] Создаёт новую ветку
+git branch -d [branch name] Удаляет ветку
+git checkout [branch name]
+git checkout -b [branch name]
+
+git merge [branch name] Мержит ветку в текущую
+git push
+git pull
+
+git stash save
+git stash pop Как unstash
+git stash list
+git stash drop
