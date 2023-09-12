@@ -1,0 +1,5 @@
+Шпаргалка по коммандам git.
+
+1. Создаём на сайте github.com проект и связываем с ним наш.
+    git remote add origin https://github.com/rbazhenov/patterns.git
+2.
