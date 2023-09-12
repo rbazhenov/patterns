@@ -7,10 +7,11 @@
 
 git init
 git clone [url]
+git add .
 git add *
     добавляем все файлы в учёт. Если потом изменили до коммита, то их заново надо фиксировать.
 
-git commit -m "init project with singleton pattern"
+git commit -m "comment"
 git diff (чтобы выйти, нажми q)
 git diff [first branch] [second branch]
 
@@ -21,7 +22,7 @@ git checkout [branch name]
 git checkout -b [branch name]
 
 git merge [branch name] Мержит ветку в текущую
-git push
+git push origin [branch name]
 git pull
 
 git stash save
@@ -32,7 +33,7 @@ git stash drop
 git status
 git rm [file]  Удаляет файл из рабочей области
 git log
-git log –follow[file]
+git log –-follow[file]
 git show
 git tag [commitID]
 
