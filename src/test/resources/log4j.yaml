@@ -1,0 +1,6 @@
+Configuration:
+  status: warn
+  name: YAMLConfigCustoms
+  logging:
+    level:
+      patterns: 'ERROR'

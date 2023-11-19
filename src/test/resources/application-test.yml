@@ -1,0 +1,5 @@
+logging:
+  level:
+    ru.vtb.ved: debug
+    org.hibernate: warn
+  config: classpath:log4j.yaml
